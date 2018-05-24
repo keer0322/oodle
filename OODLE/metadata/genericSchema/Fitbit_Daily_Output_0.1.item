@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_4FPCIKttEeeLku3FLSQk4A" comment="connectionComment" label="connectionLabel" dataPackage="_4FPCIattEeeLku3FLSQk4A"/>
+  <TalendMetadata:GenericPackage xmi:id="_4FPCIattEeeLku3FLSQk4A" dataManager="_4FPCIKttEeeLku3FLSQk4A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_4FPCIqttEeeLku3FLSQk4A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCI6ttEeeLku3FLSQk4A" name="customerid" id="120" label="customerid" length="10" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_4FPCJKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCJattEeeLku3FLSQk4A" name="physician_id" id="121" label="physician_id" length="10" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_4FPCJqttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCJ6ttEeeLku3FLSQk4A" name="provider_id" id="122" label="provider_id" length="10" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_4FPCKKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCKattEeeLku3FLSQk4A" name="eventdate" id="123" label="eventdate" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCKqttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCK6ttEeeLku3FLSQk4A" name="firstname" id="124" label="firstname" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCLKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCLattEeeLku3FLSQk4A" name="lastname" id="125" label="lastname" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCLqttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCL6ttEeeLku3FLSQk4A" name="age" id="126" label="age" length="10" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_4FPCMKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCMattEeeLku3FLSQk4A" name="gender" id="127" label="gender" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCMqttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCM6ttEeeLku3FLSQk4A" name="city" id="128" label="city" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCNKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCNattEeeLku3FLSQk4A" name="state" id="129" label="state" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCNqttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCN6ttEeeLku3FLSQk4A" name="country" id="130" label="country" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCOKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCOattEeeLku3FLSQk4A" name="physician_name" id="131" label="physician_name" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCOqttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCO6ttEeeLku3FLSQk4A" name="physician_city" id="132" label="physician_city" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCPKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCPattEeeLku3FLSQk4A" name="physicain_state" id="133" label="physicain_state" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCPqttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCP6ttEeeLku3FLSQk4A" name="physicain_country" id="134" label="physicain_country" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCQKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCQattEeeLku3FLSQk4A" name="provider_name" id="135" label="provider_name" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCQqttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCQ6ttEeeLku3FLSQk4A" name="provider_city" id="136" label="provider_city" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCRKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCRattEeeLku3FLSQk4A" name="provider_state" id="137" label="provider_state" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCRqttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCR6ttEeeLku3FLSQk4A" name="provider_country" id="138" label="provider_country" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCSKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCSattEeeLku3FLSQk4A" name="heartrate" id="139" label="heartrate" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCSqttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCS6ttEeeLku3FLSQk4A" name="calories" id="140" label="calories" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCTKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCTattEeeLku3FLSQk4A" name="steps" id="141" label="steps" length="50" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_4FPCTqttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCT6ttEeeLku3FLSQk4A" name="weight" id="142" label="weight" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCUKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCUattEeeLku3FLSQk4A" name="bmr" id="143" label="bmr" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCUqttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCU6ttEeeLku3FLSQk4A" name="sleepstart" id="144" label="sleepstart" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCVKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCVattEeeLku3FLSQk4A" name="sleepend" id="145" label="sleepend" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCVqttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCV6ttEeeLku3FLSQk4A" name="goal" id="146" label="goal" length="10" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_4FPCWKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4FPCWattEeeLku3FLSQk4A" name="goal_status" id="147" label="goal_status" length="10" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4FPCWqttEeeLku3FLSQk4A"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+  <context confirmationNeeded="false" name="Default"/>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Talend_6.4.1/Workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_9343MGWmEeeD-5Apec5G1w" name="DataOperation"/>
+    <routinesParameter id="_95L3sGWmEeeD-5Apec5G1w" name="Mathematical"/>
+    <routinesParameter id="_95VBoGWmEeeD-5Apec5G1w" name="Numeric"/>
+    <routinesParameter id="_95c9cGWmEeeD-5Apec5G1w" name="Relational"/>
+    <routinesParameter id="_96JhAGWmEeeD-5Apec5G1w" name="SQLike"/>
+    <routinesParameter id="_95k5QGWmEeeD-5Apec5G1w" name="StringHandling"/>
+    <routinesParameter id="_95uDMGWmEeeD-5Apec5G1w" name="TalendDataGenerator"/>
+    <routinesParameter id="_9530MGWmEeeD-5Apec5G1w" name="TalendDate"/>
+    <routinesParameter id="_96AXEGWmEeeD-5Apec5G1w" name="TalendString"/>
+    <routinesParameter id="_BYezcBe8EeicuZOxlvSWKw" name="DQTechnical"/>
+    <routinesParameter id="_BYFx4Be8EeicuZOxlvSWKw" name="DataMasking"/>
+    <routinesParameter id="_BYRYEBe8EeicuZOxlvSWKw" name="DataQualityDependencies"/>
+    <routinesParameter id="_BYLRcBe8EeicuZOxlvSWKw" name="DataQuality"/>
+    <routinesParameter id="_BYYs0Be8EeicuZOxlvSWKw" name="DqStringHandling"/>
+    <routinesParameter id="_BTMq0Be8EeicuZOxlvSWKw" name="MDM"/>
+    <routinesParameter id="_BX_rQBe8EeicuZOxlvSWKw" name="TalendStringUtil"/>
+  </parameters>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="Object filename_tFileInputJSON_1 = null;&#xA;java.io.BufferedReader br_tFileInputJSON_1 = null;&#xA;String line_tFileInputJSON_1 = null;&#xA;java.lang.StringBuilder jsonBuffer_tFileInputJSON_1 = new java.lang.StringBuilder(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&quot;&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String jsonStr_tFileInputJSON_1 = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;filename_tFileInputJSON_1 = &quot;E:/LearningMaterial/Talend/Source/jsonsource.json&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;if (filename_tFileInputJSON_1 instanceof java.io.InputStream) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;br_tFileInputJSON_1 = new java.io.BufferedReader(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;new java.io.InputStreamReader(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;(java.io.InputStream) filename_tFileInputJSON_1,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&quot;UTF-8&quot;));&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;br_tFileInputJSON_1 = new java.io.BufferedReader(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;new java.io.InputStreamReader(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;new java.io.FileInputStream(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String.valueOf(filename_tFileInputJSON_1)),&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&quot;UTF-8&quot;));&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;while ((line_tFileInputJSON_1 = br_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.readLine()) != null) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;jsonBuffer_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.append(line_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;jsonStr_tFileInputJSON_1 = jsonBuffer_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.toString();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;System.out.println(jsonStr_tFileInputJSON_1);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="&#xA;&#xA;import java.text.ParseException;&#xA;import java.text.SimpleDateFormat;&#xA;import java.util.Date;&#xA;import java.util.List;&#xA;import java.math.BigDecimal;&#xA;import java.io.ByteArrayOutputStream;&#xA;import java.io.ByteArrayInputStream;&#xA;import java.io.DataInputStream;&#xA;import java.io.DataOutputStream;&#xA;import java.io.ObjectOutputStream;&#xA;import java.io.ObjectInputStream;&#xA;import java.io.IOException;&#xA;import java.util.Comparator;&#xA;&#x9;&#x9;&#x9;&#x9;int nb_line_tFileInputJSON_1 = 0;&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;class XML_API_tFileInputJSON_1 {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;public boolean isDefNull(org.dom4j.Node node)&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;throws javax.xml.transform.TransformerException {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (node != null &amp;&amp; node instanceof org.dom4j.Element) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;org.dom4j.Attribute attri = ((org.dom4j.Element) node)&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.attribute(&quot;nil&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (attri != null&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&amp;&amp; (&quot;true&quot;).equals(attri.getText())) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return true;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return false;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;public boolean isMissing(org.dom4j.Node node)&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;throws javax.xml.transform.TransformerException {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return node == null ? true : false;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;public boolean isEmpty(org.dom4j.Node node)&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;throws javax.xml.transform.TransformerException {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (node != null) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return node.getText().length() == 0;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return false;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;class ConvertJSONString_tFileInputJSON_1 {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;final static int Brace = 0; // {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;final static int Bracket = 1; // [&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;private int barceType = -1;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;private String originalJsonString = &quot;&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;private String originalLoopString = &quot;&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;private String jsonString4XML = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;private String loopString4XML = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;private String additionRoot = null;&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;public void barceType() {&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;for (int c = 0; c &lt; originalJsonString.length(); ++c) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (originalJsonString.charAt(c) == '{') {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;barceType = Brace;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;break;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (originalJsonString.charAt(c) == '[') {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;barceType = Bracket;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;break;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;public void setJsonString(String originalJsonString) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;this.originalJsonString = originalJsonString;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;public void setLoopString(String originalLoopString) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;this.originalLoopString = originalLoopString;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;public String getJsonString4XML() {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return jsonString4XML;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;public String getLoopString4XML() {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (loopString4XML.length() > 1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&amp;&amp; loopString4XML.endsWith(&quot;/&quot;)) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;loopString4XML = loopString4XML.substring(0,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;loopString4XML.length() - 1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return loopString4XML;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;public void setAdditionRoot(String additionRoot) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;this.additionRoot = additionRoot;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;public String getAdditionRoot() {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return additionRoot;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;public void generate() {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;barceType();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;jsonString4XML = originalJsonString;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;loopString4XML = originalLoopString;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (Brace == barceType) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (isNeedAddRoot(originalJsonString)) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;jsonString4XML = &quot;{ \&quot;root\&quot;: &quot;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;+ originalJsonString + &quot; }&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;loopString4XML = &quot;root&quot; + originalLoopString;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;setAdditionRoot(&quot;root&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (Bracket == barceType) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;jsonString4XML = &quot;{ \&quot;root\&quot; : { \&quot;object\&quot;: &quot;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;+ originalJsonString + &quot; } }&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;loopString4XML = &quot;root/object&quot; + originalLoopString;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;setAdditionRoot(&quot;object&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;public boolean isNeedAddRoot(String originalJsonString) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;boolean isNeedAddRoot = false;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;net.sf.json.JSONObject jso = net.sf.json.JSONObject&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.fromObject(originalJsonString);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String jsonKey = &quot;&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Object firstObject = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (jso.names().size() == 1) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;jsonKey = jso.names().get(0).toString();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;firstObject = jso.get(jsonKey);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (jso.size() > 1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;|| (firstObject != null&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&amp;&amp; firstObject instanceof net.sf.json.JSONArray &amp;&amp; ((net.sf.json.JSONArray) firstObject)&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.size() > 1)) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;isNeedAddRoot = true;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;return isNeedAddRoot;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;ConvertJSONString_tFileInputJSON_1 cjs_tFileInputJSON_1 = new ConvertJSONString_tFileInputJSON_1();&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;de.odysseus.staxon.json.JsonXMLConfig config_tFileInputJSON_1 = new de.odysseus.staxon.json.JsonXMLConfigBuilder()&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.multiplePI(false).build();&#xA;&#x9;&#x9;&#x9;&#x9;de.odysseus.staxon.json.JsonXMLInputFactory jsonXMLInputFactory_tFileInputJSON_1 = new de.odysseus.staxon.json.JsonXMLInputFactory(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;config_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;javax.xml.stream.XMLOutputFactory xmlOutputFactory_tFileInputJSON_1 = javax.xml.stream.XMLOutputFactory&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.newInstance();&#xA;&#x9;&#x9;&#x9;&#x9;boolean isGetWholeJson_tFileInputJSON_1 = false;&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;org.dom4j.io.SAXReader reader_tFileInputJSON_1 = new org.dom4j.io.SAXReader();&#xA;&#x9;&#x9;&#x9;&#x9;Object filename_tFileInputJSON_1 = null;&#xA;&#x9;&#x9;&#x9;&#x9;try {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;filename_tFileInputJSON_1 = &quot;E:/LearningMaterial/Talend/Source/jsonsource.json&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;} catch (java.lang.Exception e_tFileInputJSON_1) {&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;log.error(&quot;tFileInputJSON_1 - &quot;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;+ e_tFileInputJSON_1.getMessage());&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;System.err.println(e_tFileInputJSON_1.getMessage());&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;boolean isValidFile_tFileInputJSON_1 = true;&#xA;&#x9;&#x9;&#x9;&#x9;org.dom4j.Document doc_tFileInputJSON_1 = null;&#xA;&#x9;&#x9;&#x9;&#x9;java.io.BufferedReader br_tFileInputJSON_1 = null;&#xA;&#x9;&#x9;&#x9;&#x9;java.lang.StringBuilder jsonBuffer_tFileInputJSON_1 = new java.lang.StringBuilder(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&quot;&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;String jsonStr_tFileInputJSON_1 = null;&#xA;&#x9;&#x9;&#x9;&#x9;String xmlStr_tFileInputJSON_1 = &quot;&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;String line_tFileInputJSON_1 = null;&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;String loopQuery_tFileInputJSON_1 = &quot;/menu/popup/menuitem&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;java.io.ByteArrayInputStream bais_tFileInputJSON_1 = null;&#xA;&#x9;&#x9;&#x9;&#x9;java.io.ByteArrayOutputStream baos_tFileInputJSON_1 = new java.io.ByteArrayOutputStream();&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;try {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;if (filename_tFileInputJSON_1 instanceof java.io.InputStream) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;br_tFileInputJSON_1 = new java.io.BufferedReader(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;new java.io.InputStreamReader(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;(java.io.InputStream) filename_tFileInputJSON_1,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&quot;UTF-8&quot;));&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;br_tFileInputJSON_1 = new java.io.BufferedReader(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;new java.io.InputStreamReader(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;new java.io.FileInputStream(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String.valueOf(filename_tFileInputJSON_1)),&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&quot;UTF-8&quot;));&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;while ((line_tFileInputJSON_1 = br_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.readLine()) != null) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;jsonBuffer_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.append(line_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;jsonStr_tFileInputJSON_1 = jsonBuffer_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.toString();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;cjs_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.setJsonString(jsonStr_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;cjs_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.setLoopString(loopQuery_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;cjs_tFileInputJSON_1.generate();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;jsonStr_tFileInputJSON_1 = cjs_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.getJsonString4XML();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;loopQuery_tFileInputJSON_1 = cjs_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.getLoopString4XML();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;bais_tFileInputJSON_1 = new ByteArrayInputStream(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;jsonStr_tFileInputJSON_1.getBytes(&quot;UTF-8&quot;));&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;javax.xml.stream.XMLEventReader xmlEventReader_tFileInputJSON_1 = jsonXMLInputFactory_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.createXMLEventReader(bais_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;javax.xml.stream.XMLEventWriter xmLEventWriter_tFileInputJSON_1 = xmlOutputFactory_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.createXMLEventWriter(baos_tFileInputJSON_1,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&quot;UTF-8&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;xmLEventWriter_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.add(xmlEventReader_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;// convert json string to xml&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;xmlStr_tFileInputJSON_1 = baos_tFileInputJSON_1.toString();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;xmLEventWriter_tFileInputJSON_1.close();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;xmlEventReader_tFileInputJSON_1.close();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;doc_tFileInputJSON_1 = reader_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.read(new java.io.StringReader(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;xmlStr_tFileInputJSON_1));&#xA;&#x9;&#x9;&#x9;&#x9;} catch (java.lang.Exception e_tFileInputJSON_1) {&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;log.error(&quot;tFileInputJSON_1 - &quot;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;+ e_tFileInputJSON_1.getMessage());&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;System.err.println(e_tFileInputJSON_1.getMessage());&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;isValidFile_tFileInputJSON_1 = false;&#xA;&#x9;&#x9;&#x9;&#x9;} finally {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;if (br_tFileInputJSON_1 != null) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;br_tFileInputJSON_1.close();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;baos_tFileInputJSON_1.close();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;if (bais_tFileInputJSON_1 != null) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;bais_tFileInputJSON_1.close();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;if (isValidFile_tFileInputJSON_1) {&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;org.dom4j.XPath x_tFileInputJSON_1 = doc_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.createXPath(loopQuery_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;java.util.HashMap&lt;String, String> xmlNameSpaceMap_tFileInputJSON_1 = new java.util.HashMap&lt;String, String>();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;x_tFileInputJSON_1 = doc_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.createXPath(loopQuery_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;x_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.setNamespaceURIs(xmlNameSpaceMap_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;java.util.List&lt;org.dom4j.tree.AbstractNode> nodeList_tFileInputJSON_1 = (java.util.List&lt;org.dom4j.tree.AbstractNode>) x_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.selectNodes(doc_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;XML_API_tFileInputJSON_1 xml_api_tFileInputJSON_1 = new XML_API_tFileInputJSON_1();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;String str_tFileInputJSON_1 = &quot;&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;org.dom4j.Node node_tFileInputJSON_1 = null;&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;// init all mapping xpaths&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;org.dom4j.XPath xTmp0_tFileInputJSON_1 = org.dom4j.DocumentHelper&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.createXPath(&quot;../../id&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;xTmp0_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.setNamespaceURIs(xmlNameSpaceMap_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;org.dom4j.XPath xTmp1_tFileInputJSON_1 = org.dom4j.DocumentHelper&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.createXPath(&quot;value&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;xTmp1_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.setNamespaceURIs(xmlNameSpaceMap_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;org.dom4j.XPath xTmp2_tFileInputJSON_1 = org.dom4j.DocumentHelper&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.createXPath(&quot;onclick&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;xTmp2_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.setNamespaceURIs(xmlNameSpaceMap_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;org.dom4j.XPath xTmp3_tFileInputJSON_1 = org.dom4j.DocumentHelper&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.createXPath(&quot;../../value&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;xTmp3_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.setNamespaceURIs(xmlNameSpaceMap_tFileInputJSON_1);&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;for (org.dom4j.tree.AbstractNode temp_tFileInputJSON_1 : nodeList_tFileInputJSON_1) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;nb_line_tFileInputJSON_1++;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;log.debug(&quot;tFileInputJSON_1 - Retrieving the record &quot;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;+ (nb_line_tFileInputJSON_1) + &quot;.&quot;);&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1 = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;boolean whetherReject_tFileInputJSON_1 = false;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1 = new row1Struct();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;try {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Object obj0_tFileInputJSON_1 = xTmp0_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.evaluate(temp_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (obj0_tFileInputJSON_1 == null) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1 = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;str_tFileInputJSON_1 = &quot;&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (obj0_tFileInputJSON_1 instanceof org.dom4j.Node) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1 = (org.dom4j.Node) obj0_tFileInputJSON_1;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;str_tFileInputJSON_1 = org.jaxen.function.StringFunction&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.evaluate(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;org.jaxen.dom4j.DocumentNavigator&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.getInstance());&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (obj0_tFileInputJSON_1 instanceof String&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;|| obj0_tFileInputJSON_1 instanceof Number) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1 = temp_tFileInputJSON_1;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;str_tFileInputJSON_1 = String&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.valueOf(obj0_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (obj0_tFileInputJSON_1 instanceof java.util.List) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;java.util.List&lt;org.dom4j.Node> nodes_tFileInputJSON_1 = (java.util.List&lt;org.dom4j.Node>) obj0_tFileInputJSON_1;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1 = nodes_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.size() > 0 ? nodes_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.get(0) : null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;str_tFileInputJSON_1 = node_tFileInputJSON_1 == null ? &quot;&quot;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;: org.jaxen.function.StringFunction&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.evaluate(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;org.jaxen.dom4j.DocumentNavigator&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.getInstance());&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (xml_api_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.isDefNull(node_tFileInputJSON_1)) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1.id = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (xml_api_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.isEmpty(node_tFileInputJSON_1)) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1.id = &quot;&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (xml_api_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.isMissing(node_tFileInputJSON_1)) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1.id = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1.id = str_tFileInputJSON_1;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Object obj1_tFileInputJSON_1 = xTmp1_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.evaluate(temp_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (obj1_tFileInputJSON_1 == null) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1 = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;str_tFileInputJSON_1 = &quot;&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (obj1_tFileInputJSON_1 instanceof org.dom4j.Node) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1 = (org.dom4j.Node) obj1_tFileInputJSON_1;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;str_tFileInputJSON_1 = org.jaxen.function.StringFunction&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.evaluate(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;org.jaxen.dom4j.DocumentNavigator&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.getInstance());&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (obj1_tFileInputJSON_1 instanceof String&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;|| obj1_tFileInputJSON_1 instanceof Number) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1 = temp_tFileInputJSON_1;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;str_tFileInputJSON_1 = String&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.valueOf(obj1_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (obj1_tFileInputJSON_1 instanceof java.util.List) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;java.util.List&lt;org.dom4j.Node> nodes_tFileInputJSON_1 = (java.util.List&lt;org.dom4j.Node>) obj1_tFileInputJSON_1;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1 = nodes_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.size() > 0 ? nodes_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.get(0) : null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;str_tFileInputJSON_1 = node_tFileInputJSON_1 == null ? &quot;&quot;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;: org.jaxen.function.StringFunction&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.evaluate(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;org.jaxen.dom4j.DocumentNavigator&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.getInstance());&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (xml_api_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.isDefNull(node_tFileInputJSON_1)) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1.value1 = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (xml_api_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.isEmpty(node_tFileInputJSON_1)) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1.value1 = &quot;&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (xml_api_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.isMissing(node_tFileInputJSON_1)) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1.value1 = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1.value1 = str_tFileInputJSON_1;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Object obj2_tFileInputJSON_1 = xTmp2_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.evaluate(temp_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (obj2_tFileInputJSON_1 == null) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1 = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;str_tFileInputJSON_1 = &quot;&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (obj2_tFileInputJSON_1 instanceof org.dom4j.Node) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1 = (org.dom4j.Node) obj2_tFileInputJSON_1;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;str_tFileInputJSON_1 = org.jaxen.function.StringFunction&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.evaluate(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;org.jaxen.dom4j.DocumentNavigator&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.getInstance());&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (obj2_tFileInputJSON_1 instanceof String&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;|| obj2_tFileInputJSON_1 instanceof Number) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1 = temp_tFileInputJSON_1;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;str_tFileInputJSON_1 = String&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.valueOf(obj2_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (obj2_tFileInputJSON_1 instanceof java.util.List) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;java.util.List&lt;org.dom4j.Node> nodes_tFileInputJSON_1 = (java.util.List&lt;org.dom4j.Node>) obj2_tFileInputJSON_1;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1 = nodes_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.size() > 0 ? nodes_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.get(0) : null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;str_tFileInputJSON_1 = node_tFileInputJSON_1 == null ? &quot;&quot;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;: org.jaxen.function.StringFunction&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.evaluate(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;org.jaxen.dom4j.DocumentNavigator&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.getInstance());&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (xml_api_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.isDefNull(node_tFileInputJSON_1)) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1.onclick = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (xml_api_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.isEmpty(node_tFileInputJSON_1)) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1.onclick = &quot;&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (xml_api_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.isMissing(node_tFileInputJSON_1)) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1.onclick = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1.onclick = str_tFileInputJSON_1;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Object obj3_tFileInputJSON_1 = xTmp3_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.evaluate(temp_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (obj3_tFileInputJSON_1 == null) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1 = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;str_tFileInputJSON_1 = &quot;&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (obj3_tFileInputJSON_1 instanceof org.dom4j.Node) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1 = (org.dom4j.Node) obj3_tFileInputJSON_1;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;str_tFileInputJSON_1 = org.jaxen.function.StringFunction&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.evaluate(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;org.jaxen.dom4j.DocumentNavigator&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.getInstance());&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (obj3_tFileInputJSON_1 instanceof String&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;|| obj3_tFileInputJSON_1 instanceof Number) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1 = temp_tFileInputJSON_1;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;str_tFileInputJSON_1 = String&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.valueOf(obj3_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (obj3_tFileInputJSON_1 instanceof java.util.List) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;java.util.List&lt;org.dom4j.Node> nodes_tFileInputJSON_1 = (java.util.List&lt;org.dom4j.Node>) obj3_tFileInputJSON_1;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1 = nodes_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.size() > 0 ? nodes_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.get(0) : null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;str_tFileInputJSON_1 = node_tFileInputJSON_1 == null ? &quot;&quot;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;: org.jaxen.function.StringFunction&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.evaluate(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;node_tFileInputJSON_1,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;org.jaxen.dom4j.DocumentNavigator&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.getInstance());&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (xml_api_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.isDefNull(node_tFileInputJSON_1)) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1.value = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (xml_api_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.isEmpty(node_tFileInputJSON_1)) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1.value = &quot;&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else if (xml_api_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.isMissing(node_tFileInputJSON_1)) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1.value = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1.value = str_tFileInputJSON_1;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} catch (java.lang.Exception e_tFileInputJSON_1) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;whetherReject_tFileInputJSON_1 = true;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;log.error(&quot;tFileInputJSON_1 - &quot;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;+ e_tFileInputJSON_1.getMessage());&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;System.err.println(e_tFileInputJSON_1.getMessage());&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row1 = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;/**&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; * [tFileInputJSON_1 begin ] stop&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; */&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;/**&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; * [tFileInputJSON_1 main ] start&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; */&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;currentComponent = &quot;tFileInputJSON_1&quot;;&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;tos_count_tFileInputJSON_1++;&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;/**&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; * [tFileInputJSON_1 main ] stop&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; */&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;// Start of branch &quot;row1&quot;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (row1 != null) {&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;/**&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; * [tLogRow_1 main ] start&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; */&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;currentComponent = &quot;tLogRow_1&quot;;&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;// row1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;// row1&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (execStat) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;runStat.updateStatOnConnection(&quot;row1&quot;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;+ iterateId, 1, 1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (log.isTraceEnabled()) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;log.trace(&quot;row1 - &quot;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;+ (row1 == null ? &quot;&quot; : row1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.toLogString()));&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;// /////////////////////&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String[] row_tLogRow_1 = new String[4];&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (row1.id != null) { //&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row_tLogRow_1[0] = String.valueOf(row1.id);&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} //&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (row1.value != null) { //&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row_tLogRow_1[1] = String.valueOf(row1.value);&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} //&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (row1.value1 != null) { //&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row_tLogRow_1[2] = String.valueOf(row1.value1);&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} //&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;if (row1.onclick != null) { //&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row_tLogRow_1[3] = String.valueOf(row1.onclick);&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} //&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;util_tLogRow_1.addRow(row_tLogRow_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;nb_line_tLogRow_1++;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;log.info(&quot;tLogRow_1 - Content of row &quot;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;+ nb_line_tLogRow_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;+ &quot;: &quot;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;+ TalendString.unionString(&quot;|&quot;,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;row_tLogRow_1));&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;// ////&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;// ////&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;// /////////////////////&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;tos_count_tLogRow_1++;&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;/**&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; * [tLogRow_1 main ] stop&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; */&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;} // End of branch &quot;row1&quot;&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;/**&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; * [tFileInputJSON_1 end ] start&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; */&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;currentComponent = &quot;tFileInputJSON_1&quot;;&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;}"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <node componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaFlex_1" show="false"/>
+    <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
+    <elementParameter field="MEMO_JAVA" name="CODE_START" value="// start part of your Java code&#xA;      Object filename_tFileInputJSON_1 = null;&#xA;java.io.BufferedReader br_tFileInputJSON_1 = null;&#xA;String line_tFileInputJSON_1 = null;&#xA;java.lang.StringBuilder jsonBuffer_tFileInputJSON_1 = new java.lang.StringBuilder(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&quot;&quot;);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String jsonStr_tFileInputJSON_1 = null;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;filename_tFileInputJSON_1 = &quot;C:/Test_files/Test_files/Fitbit_daily_feed.json&quot;;&#xA;&#x9;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;if (filename_tFileInputJSON_1 instanceof java.io.InputStream) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;br_tFileInputJSON_1 = new java.io.BufferedReader(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;new java.io.InputStreamReader(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;(java.io.InputStream) filename_tFileInputJSON_1,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&quot;UTF-8&quot;));&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;br_tFileInputJSON_1 = new java.io.BufferedReader(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;new java.io.InputStreamReader(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;new java.io.FileInputStream(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;String.valueOf(filename_tFileInputJSON_1)),&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&quot;UTF-8&quot;));&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;while ((line_tFileInputJSON_1 = br_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.readLine()) != null) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;jsonBuffer_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.append(line_tFileInputJSON_1);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;jsonStr_tFileInputJSON_1 = jsonBuffer_tFileInputJSON_1&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;.toString();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;//System.out.println(jsonStr_tFileInputJSON_1);"/>
+    <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="// here is the main part of the component,&#xA;// a piece of code executed in the row&#xA;// loop&#xA;row1.newColumn=jsonStr_tFileInputJSON_1 ;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE_END" value="// end of the component, outside/closing the loop&#xA;      "/>
+    <elementParameter field="CHECK" name="Version_V2_0" value="false" show="false"/>
+    <elementParameter field="CHECK" name="Version_V3_2" value="false" show="false"/>
+    <elementParameter field="CHECK" name="Version_V4.0" value="true" show="false"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaFlex_1">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_2" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_zNV28BJ3EeiwdKbjodv4ww-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out2">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="out2">
+        <mapperTableEntries name="newColumn" expression="row1.newColumn " type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="newColumn" type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tJsonNormalize" componentVersion="1.4" offsetLabelX="0" offsetLabelY="0" posX="416" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJsonNormalize_1" show="false"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="JSON_INPUT_COLUMN" value="newColumn"/>
+    <elementParameter field="CHECK" name="ALLOW_EMPTY" value="true"/>
+    <elementParameter field="CHECK" name="IGNORE_NULL_VALUES" value="true"/>
+    <elementParameter field="TEXT" name="JSON_START_PATH" value=""/>
+    <elementParameter field="TEXT" name="JSON_PATH_DELIMITER" value="&quot;;&quot;"/>
+    <elementParameter field="TEXT" name="EXCLUDE_FIELD_LIST" value="&quot;_id&quot;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJsonNormalize_1">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="1024" name="JSON_PATH" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="1024" name="JSON_KEY" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="1024" name="JSON_VALUE" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="DUMMY" value="true" show="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JSON_PATH"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JSON_KEY"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JSON_VALUE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_1">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="1024" name="JSON_PATH" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="1024" name="JSON_KEY" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="1024" name="JSON_VALUE" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="608" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_zNV28BJ3EeiwdKbjodv4ww-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out1">
+      <column key="false" length="1024" name="JSON_KEY" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="1024" name="JSON_VALUE" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn1" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="out1">
+        <mapperTableEntries name="JSON_KEY" expression="row2.JSON_KEY " type="id_String" nullable="true"/>
+        <mapperTableEntries name="JSON_VALUE" expression="row2.JSON_VALUE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="newColumn1" expression="Numeric.sequence(row3.JSON_KEY ,1,1) " type="id_Integer" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row3" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="newColumn" type="id_String" nullable="true"/>
+        <mapperTableEntries name="JSON_PATH" type="id_String" nullable="true"/>
+        <mapperTableEntries name="JSON_KEY" type="id_String" nullable="true"/>
+        <mapperTableEntries name="JSON_VALUE" type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="DUMMY" value="true" show="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="JSON_KEY"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JSON_VALUE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn1"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_2">
+      <column key="false" length="1024" name="JSON_KEY" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="1024" name="JSON_VALUE" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn1" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPivotToColumnsDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPivotToColumnsDelimited_1" show="false"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="PIVOT_COLUMN" value="JSON_KEY"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="AGGREGATION_COLUMN" value="JSON_VALUE"/>
+    <elementParameter field="CLOSED_LIST" name="AGGREGATION_FUNCTION" value="first"/>
+    <elementParameter field="TABLE" name="GROUPBYS">
+      <elementValue elementRef="INPUT_COLUMN" value="newColumn1"/>
+    </elementParameter>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Test_files/Test_files/Fitbit_daily_feed.csv&quot;"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tPivotToColumnsDelimited_1">
+      <column key="false" length="1024" name="JSON_KEY" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="1024" name="JSON_VALUE" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn1" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tJavaFlex_1" offsetLabelX="0" offsetLabelY="0" source="tJavaFlex_1" target="tMap_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="out2" lineStyle="0" metaname="out2" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tJsonNormalize_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tJsonNormalize_1" offsetLabelX="0" offsetLabelY="0" source="tJsonNormalize_1" target="tLogRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tLogRow_1" offsetLabelX="0" offsetLabelY="0" source="tLogRow_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tLogRow_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tLogRow_2" offsetLabelX="0" offsetLabelY="0" source="tLogRow_2" target="tPivotToColumnsDelimited_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaFlex_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

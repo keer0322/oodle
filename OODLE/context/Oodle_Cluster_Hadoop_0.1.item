@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_xiyzQF8vEeiw-5gMKp4c_Q" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_xizaUF8vEeiw-5gMKp4c_Q" comment="" name="Hadoop_URI" prompt="Hadoop_URI?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xizaUV8vEeiw-5gMKp4c_Q" comment="" name="Hadoop_ResourceManager" prompt="Hadoop_ResourceManager?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xizaUl8vEeiw-5gMKp4c_Q" comment="" name="Hadoop_ResourceManagerScheduler" prompt="Hadoop_ResourceManagerScheduler?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xizaU18vEeiw-5gMKp4c_Q" comment="" name="Hadoop_JobHistory" prompt="Hadoop_JobHistory?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xizaVF8vEeiw-5gMKp4c_Q" comment="" name="Hadoop_username" prompt="Hadoop_username?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xizaVV8vEeiw-5gMKp4c_Q" comment="" name="Hadoop_STG_DIR" prompt="Hadoop_STG_DIR?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xizaVl8vEeiw-5gMKp4c_Q" comment="" name="EmrMaster" prompt="EmrMaster?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xizaV18vEeiw-5gMKp4c_Q" comment="" name="Hadoop_URI_Port" prompt="Hadoop_URI_Port?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xizaWF8vEeiw-5gMKp4c_Q" comment="" name="Hadoop_ResourceManager_Port" prompt="Hadoop_ResourceManager_Port?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xizaWV8vEeiw-5gMKp4c_Q" comment="" name="Hadoop_ResourceManagerScheduler_Port" prompt="Hadoop_ResourceManagerScheduler_Port?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xizaWl8vEeiw-5gMKp4c_Q" comment="" name="Hadoop_JobHistory_Port" prompt="Hadoop_JobHistory_Port?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xizaW18vEeiw-5gMKp4c_Q" comment="" name="Hadoop_hdfs_dir" prompt="Hadoop_hdfs_dir?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>

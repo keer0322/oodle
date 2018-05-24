@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_xjO4IF8vEeiw-5gMKp4c_Q" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_xjO4IV8vEeiw-5gMKp4c_Q" comment="" name="RedshiftHost" prompt="RedshiftHost?" promptNeeded="false" type="id_String" value="52.37.207.67"/>
+  <contextParameter xmi:id="_xjO4Il8vEeiw-5gMKp4c_Q" comment="" name="RedshiftDbName" prompt="RedshiftDbName?" promptNeeded="false" type="id_String" value="oodledb"/>
+  <contextParameter xmi:id="_xjO4I18vEeiw-5gMKp4c_Q" comment="" name="RedshiftUsername" prompt="RedshiftUsername?" promptNeeded="false" type="id_String" value="root"/>
+  <contextParameter xmi:id="_xjO4JF8vEeiw-5gMKp4c_Q" comment="" name="RedshiftPassword" prompt="RedshiftPassword?" promptNeeded="false" type="id_Password" value="fnLV2RvhzQN+rJnXfQllOA=="/>
+  <contextParameter xmi:id="_xjO4JV8vEeiw-5gMKp4c_Q" comment="" name="RedshiftPort" prompt="RedshiftPort?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xjO4Jl8vEeiw-5gMKp4c_Q" comment="" name="RedshiftUserIAmRole" prompt="RedshiftUserIAmRole?" promptNeeded="false" type="id_String" value="arn:aws:iam::140089806333:role/RedshitS3dataRole"/>
+</talendfile:ContextType>

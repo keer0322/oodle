@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_xi8kQF8vEeiw-5gMKp4c_Q" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_xi8kQV8vEeiw-5gMKp4c_Q" comment="" name="Hive_AdditionalJDBCParameters" prompt="Hive_AdditionalJDBCParameters?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xi8kQl8vEeiw-5gMKp4c_Q" comment="" name="Hive_Port" prompt="Hive_Port?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xi8kQ18vEeiw-5gMKp4c_Q" comment="" name="Hive_Database" prompt="Hive_Database?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xi8kRF8vEeiw-5gMKp4c_Q" comment="" name="Hive_Password" prompt="Hive_Password?" promptNeeded="false" type="id_Password" value=""/>
+  <contextParameter xmi:id="_xi8kRV8vEeiw-5gMKp4c_Q" comment="" name="Hive_Server" prompt="Hive_Server?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xi8kRl8vEeiw-5gMKp4c_Q" comment="" name="Hive_Username" prompt="Hive_Username?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>

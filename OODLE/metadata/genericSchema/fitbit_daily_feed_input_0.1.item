@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_WMe_AKttEeeLku3FLSQk4A" comment="connectionComment" label="connectionLabel" dataPackage="_WMe_AattEeeLku3FLSQk4A"/>
+  <TalendMetadata:GenericPackage xmi:id="_WMe_AattEeeLku3FLSQk4A" dataManager="_WMe_AKttEeeLku3FLSQk4A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_WMe_AqttEeeLku3FLSQk4A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WMe_A6ttEeeLku3FLSQk4A" name="customerid" id="0" label="customerid" length="10" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_WMe_BKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WMe_BattEeeLku3FLSQk4A" name="phone" id="1" label="phone" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_WMe_BqttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WMe_B6ttEeeLku3FLSQk4A" name="eventdate" id="2" label="eventdate" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_WMe_CKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WMe_CattEeeLku3FLSQk4A" name="heartrate" id="3" label="heartrate" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_WMe_CqttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WMe_C6ttEeeLku3FLSQk4A" name="calories" id="4" label="calories" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_WMe_DKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WMe_DattEeeLku3FLSQk4A" name="steps" id="5" label="steps" length="50" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_WMe_DqttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WMe_D6ttEeeLku3FLSQk4A" name="weight" id="6" label="weight" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_WMe_EKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WMe_EattEeeLku3FLSQk4A" name="bmr" id="7" label="bmr" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_WMe_EqttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WMe_E6ttEeeLku3FLSQk4A" name="sleepstart" id="8" label="sleepstart" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_WMe_FKttEeeLku3FLSQk4A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WMe_FattEeeLku3FLSQk4A" name="sleepend" id="9" label="sleepend" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_WMe_FqttEeeLku3FLSQk4A"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

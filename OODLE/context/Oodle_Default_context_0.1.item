@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_xjFuMF8vEeiw-5gMKp4c_Q" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_xjFuMV8vEeiw-5gMKp4c_Q" comment="" name="HDFS_Stg_Output_Path" prompt="HDFS_Stg_Output_Path?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xjFuMl8vEeiw-5gMKp4c_Q" comment="" name="HDFS_Tgt_Output_Path" prompt="HDFS_Tgt_Output_Path?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xjFuM18vEeiw-5gMKp4c_Q" comment="" name="HDFS_OutputDailyFeedDir" prompt="HDFS_OutputDailyFeedDir?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xjFuNF8vEeiw-5gMKp4c_Q" comment="" name="JsonSerDeJarPath" prompt="JsonSerDeJarPath?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xjFuNV8vEeiw-5gMKp4c_Q" comment="" name="HDFS_tmp_OutputDailyFeedDir" prompt="HDFS_tmp_OutputDailyFeedDir?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xjFuNl8vEeiw-5gMKp4c_Q" comment="" name="Hadoop_homedir" prompt="Hadoop_homedir?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_xjFuN18vEeiw-5gMKp4c_Q" comment="" name="oodle_job_properties" prompt="oodle_job_properties?" promptNeeded="false" type="id_String" value="oodle-job.properties"/>
+  <contextParameter xmi:id="_xjFuOF8vEeiw-5gMKp4c_Q" comment="" name="oodle_emr_properties" prompt="oodle_emr_properties?" promptNeeded="false" type="id_String" value="oodle-emr.properties"/>
+  <contextParameter xmi:id="_xjFuOV8vEeiw-5gMKp4c_Q" comment="" name="oodle_s3_properties" prompt="oodle_s3_properties?" promptNeeded="false" type="id_String" value="oodle-s3.properties"/>
+  <contextParameter xmi:id="_xjFuOl8vEeiw-5gMKp4c_Q" comment="" name="oodle_redshift_properties" prompt="oodle_redshift_properties?" promptNeeded="false" type="id_String" value="oodle-redshift.properties"/>
+  <contextParameter xmi:id="_xjFuO18vEeiw-5gMKp4c_Q" comment="" name="studio_jobserver_homedir" prompt="studio_jobserver_homedir?" promptNeeded="false" type="id_String" value="/home/ec2-user/"/>
+  <contextParameter xmi:id="_xjFuPF8vEeiw-5gMKp4c_Q" comment="" name="Input_oodle_paramfile" prompt="Input_oodle_paramfile?" promptNeeded="false" type="id_String" value="oodle_input_data.txt"/>
+</talendfile:ContextType>
