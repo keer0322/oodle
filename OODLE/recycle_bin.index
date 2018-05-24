@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2018-05-24T08:52:24.477+0000">
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2018-05-24T09:05:39.660+0000">
   <deletedItems id="_h5IVYKpGEeePhJM4dsf1hw" path="" type="HDFS"/>
   <deletedItems id="_rIpOYKpFEeePhJM4dsf1hw" path="" type="HADOOPCLUSTER"/>
   <deletedItems id="_zNV28BJ3EeiwdKbjodv4ww" path="Job_logs/Generic/Generic" type="PROCESS"/>
@@ -11,4 +11,12 @@
   <deletedItems id="_s0Mm4Bq3EeilSaZTZxpaNQ" path="" type="METADATA_CONNECTIONS"/>
   <deletedItems id="_899fwBq3EeilSaZTZxpaNQ" path="" type="METADATA_CONNECTIONS"/>
   <deletedItems id="_3DP00Bq3EeilSaZTZxpaNQ" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_67cV8BhoEeiqs8xG5b_OFw" path="CDC_Implementation/scenario1" type="PROCESS"/>
+  <deletedItems id="_ZKUkoBq0EeilSaZTZxpaNQ" path="CDC_Implementation/scenario1" type="PROCESS"/>
+  <deletedItems id="__B7pABq_EeilSaZTZxpaNQ" path="CDC_Implementation/scenario1" type="PROCESS"/>
+  <deletedItems id="_g2cGsBiOEeiqs8xG5b_OFw" path="CDC_Implementation/scenario2" type="PROCESS"/>
+  <deletedItems id="_2A-SIBiLEeiqs8xG5b_OFw" path="CDC_Implementation" type="PROCESS"/>
+  <deletedItems id="_yCiaECXmEei7PYLAWsRZ3A" path="CDC_Implementation" type="PROCESS"/>
+  <deletedItems id="_qGJrsBfXEeiiiujbMcCavA" path="Job_logs" type="PROCESS"/>
+  <deletedItems id="_uErG0BfDEeiO3cC_iULHEw" path="Job_logs" type="PROCESS"/>
 </recyclebin:RecycleBin>
