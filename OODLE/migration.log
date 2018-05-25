@@ -3,3 +3,16 @@
  * Task [Update MDM Process Objects] : Applied successfully
  * Task [Remove MDM Reference Item Name] : Nothing to do
  * Task [Update Operator MigrationTask] : Applied successfully
+ * Task [Fix a problem of project resources linked to items] : Applied successfully
+ * Task [UpdateTMultiPatternCheckTask] : Applied successfully
+ * Task [Update "compute group quality" to false for non-separate mode] : Applied successfully
+ * Task [UnifyPasswordEncryption4MDMServerDefMigrationTask] : Nothing to do
+ * Task [Update parameter "Matching Algorithm" value for MR tMatchgroup] : Applied successfully
+ * Task [Update tMelissaDataAddress to add a GeoCodeResult column and an advanced parameter] : Applied successfully
+ * Task [UpdatetNaivebayseModelSparkVersionTask] : Applied successfully
+ * Task [UpdatetPredictSparkVersionTask] : Applied successfully
+ * Task [UpdateTMatchGroupOutPutSchemaTask] : Applied successfully
+ * Task [update tPatternCheck and tPatternExtract] : Applied successfully
+ * Task [UpdateTMultiPatternTableParamTask] : Applied successfully
+ * Task [AutoUpdateRelationsMigrationTask] : Applied successfully
+ ---=== End of migration ===---
