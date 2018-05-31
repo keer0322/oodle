@@ -307,6 +307,37 @@
       <relatedItems xmi:id="_NvGljWABEeibfI8i_-3lEw" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_NvGljmABEeibfI8i_-3lEw" id="Importtweets_deployTstandardizerow_1" version="Latest" type="routine"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="___R1QGSxEeiVG4S6Lgx1Kg">
+      <baseItem xmi:id="___R1QWSxEeiVG4S6Lgx1Kg" id="_Gh7esK6vEeer8dArrZmTSw" version="0.1" type="job"/>
+      <relatedItems xmi:id="___R1QmSxEeiVG4S6Lgx1Kg" id="_WFTYIKksEeeYnLONC-b33A" version="Latest" type="context"/>
+      <relatedItems xmi:id="___R1Q2SxEeiVG4S6Lgx1Kg" id="_xF2QYJwSEeevSfDK6QoZaQ" version="Latest" type="context"/>
+      <relatedItems xmi:id="___R1RGSxEeiVG4S6Lgx1Kg" id="_Ihes4J2eEeepddv4c48Ucw" version="Latest" type="context"/>
+      <relatedItems xmi:id="___R1RWSxEeiVG4S6Lgx1Kg" id="_XElGYJEbEee8WO8wvmXhvw" version="Latest" type="context"/>
+      <relatedItems xmi:id="___R1RmSxEeiVG4S6Lgx1Kg" id="_eJ_tcJ2eEeepddv4c48Ucw" version="Latest" type="context"/>
+      <relatedItems xmi:id="___R1R2SxEeiVG4S6Lgx1Kg" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1SGSxEeiVG4S6Lgx1Kg" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1SWSxEeiVG4S6Lgx1Kg" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1SmSxEeiVG4S6Lgx1Kg" id="ImporttweetsTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1S2SxEeiVG4S6Lgx1Kg" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1TGSxEeiVG4S6Lgx1Kg" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1TWSxEeiVG4S6Lgx1Kg" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1TmSxEeiVG4S6Lgx1Kg" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1T2SxEeiVG4S6Lgx1Kg" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1UGSxEeiVG4S6Lgx1Kg" id="Importtweets_deployTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1UWSxEeiVG4S6Lgx1Kg" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1UmSxEeiVG4S6Lgx1Kg" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1U2SxEeiVG4S6Lgx1Kg" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1VGSxEeiVG4S6Lgx1Kg" id="Tweets_Generator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1VWSxEeiVG4S6Lgx1Kg" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1VmSxEeiVG4S6Lgx1Kg" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1V2SxEeiVG4S6Lgx1Kg" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1WGSxEeiVG4S6Lgx1Kg" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1WWSxEeiVG4S6Lgx1Kg" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="___R1WmSxEeiVG4S6Lgx1Kg" id="_eidygKttEeeLku3FLSQk4A - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="___R1W2SxEeiVG4S6Lgx1Kg" id="_peKEAKttEeeLku3FLSQk4A - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="___R1XGSxEeiVG4S6Lgx1Kg" id="_VsVfUKttEeeLku3FLSQk4A - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="___R1XWSxEeiVG4S6Lgx1Kg" id="_vuwfYKttEeeLku3FLSQk4A - metadata" version="Latest" type="schema"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_GwFF0F8vEeiw-5gMKp4c_Q" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_GwFF0V8vEeiw-5gMKp4c_Q" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_GwFF0l8vEeiw-5gMKp4c_Q" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
