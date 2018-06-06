@@ -296,7 +296,7 @@
     <elementParameter field="CHECK" name="PERL5_REGEX" value="false"/>
     <elementParameter field="TABLE" name="FILES">
       <elementValue elementRef="FILEMASK" value="&quot;json-serde-1.3.7-jar-with-dependencies.jar&quot;"/>
-      <elementValue elementRef="NEWNAME" value="&quot;/talend/6.4.1/tac/apache-tomcat/webapps/org.talend.administrator/WEB-INF/lib/*&quot;"/>
+      <elementValue elementRef="NEWNAME" value="&quot;json-serde-1.3.7-jar-with-dependencies.jar&quot;"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
