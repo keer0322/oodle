@@ -211,7 +211,7 @@
     <elementParameter field="TEXT" name="USER" value="context.RedshiftUsername"/>
     <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kudyEgMBxwFCu2lctbbyzGw+uqzoCGUyBrU="/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Fitbit_daily_tgt_tbl&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Fitbit_weekly_agg_tbl&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
