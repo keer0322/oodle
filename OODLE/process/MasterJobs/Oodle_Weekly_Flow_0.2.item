@@ -269,7 +269,7 @@
       <column key="false" length="255" name="value" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tHDFSPut" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="544" sizeX="64" sizeY="64">
+  <node componentName="tHDFSPut" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="544">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSPut_1" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
@@ -296,7 +296,7 @@
     <elementParameter field="CHECK" name="PERL5_REGEX" value="false"/>
     <elementParameter field="TABLE" name="FILES">
       <elementValue elementRef="FILEMASK" value="&quot;json-serde-1.3.7-jar-with-dependencies.jar&quot;"/>
-      <elementValue elementRef="NEWNAME" value="&quot;json-serde-1.3.7-jar-with-dependencies.jar&quot;"/>
+      <elementValue elementRef="NEWNAME" value="“/talend/6.4.1/tac/apache-tomcat/webapps/org.talend.administrator/WEB-INF/lib/*&quot;"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
