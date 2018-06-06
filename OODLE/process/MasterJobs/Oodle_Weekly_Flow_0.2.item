@@ -172,9 +172,9 @@
   </parameters>
   <node componentName="tS3Connection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="0" posY="-32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3Connection_1" show="false"/>
-    <elementParameter field="TEXT" name="ACCESS_KEY" value="context.S3_Access_Key"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="8pW6Nmy2kudBziHdbteVLmsI2tBuxojG"/>
-    <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" value="false"/>
+    <elementParameter field="TEXT" name="ACCESS_KEY" value="context.S3_Access_Key" show="false"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="8pW6Nmy2kudBziHdbteVLmsI2tBuxojG" show="false"/>
+    <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" value="true"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="false"/>
     <elementParameter field="TEXT" name="ARN" value="&quot;arn:aws:iam::140089806333:role/EC2S3access&quot;" show="false"/>
     <elementParameter field="TEXT" name="ROLE_SESSION_NAME" value="&quot;EC2S3access&quot;" show="false"/>
