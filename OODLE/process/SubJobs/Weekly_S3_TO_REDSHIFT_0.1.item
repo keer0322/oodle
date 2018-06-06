@@ -50,6 +50,7 @@
     <contextParameter comment="" name="RedshiftPassword" prompt="RedshiftPassword?" promptNeeded="false" repositoryContextId="_WFTYIKksEeeYnLONC-b33A" type="id_Password" value="fnLV2RvhzQN+rJnXfQllOA=="/>
     <contextParameter comment="" name="RedshiftPort" prompt="RedshiftPort?" promptNeeded="false" repositoryContextId="_WFTYIKksEeeYnLONC-b33A" type="id_String" value=""/>
     <contextParameter comment="" name="RedshiftUsername" prompt="RedshiftUsername?" promptNeeded="false" repositoryContextId="_WFTYIKksEeeYnLONC-b33A" type="id_String" value="root"/>
+    <contextParameter comment="" name="RedshiftUserIAmRole" prompt="RedshiftUserIAmRole?" promptNeeded="false" type="id_String" value="arn:aws:iam::140089806333:role/RedshitS3dataRole"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
