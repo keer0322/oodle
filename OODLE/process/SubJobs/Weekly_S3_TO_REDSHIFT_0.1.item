@@ -215,7 +215,7 @@
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;copy Fitbit_weekly_agg_tbl from 's3://oodle-output/FinalweeklyFeed.txt'iam_role  &quot;&#xD;&#xA;+ &quot;'&quot; +context.RedshiftUserIAmRole + &quot;'&quot; +&quot;&#xD;&#xA;delimiter ','  ;&quot;&#xD;&#xA;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;copy Fitbit_weekly_agg_tbl from 's3://oodle-output/FinalweeklyFeed.txt' iam_role  &quot;&#xD;&#xA;+ &quot;'&quot; +context.RedshiftUserIAmRole + &quot;'&quot; +&quot;&#xD;&#xA;delimiter ','  ;&quot;&#xD;&#xA;"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
     <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
