@@ -184,7 +184,7 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;create table IF NOT EXISTS Fitbit_weekly_agg_tbl&#xD;&#xA;(   &#xD;&#xA;Customer_id  int DISTKEY,&#xD;&#xA;Week_start_date  varchar(30) ,&#xD;&#xA;Week_end_date  varchar(30) ,&#xD;&#xA;Customer_firstnm  varchar(30) ,&#xD;&#xA;Customer_lastnm  varchar(30) ,&#xD;&#xA;Max_Calorie decimal(10,2) ,&#xD;&#xA;Min_Calorie decimal(10,2) ,&#xD;&#xA;Avg_Weekly_Calorie decimal(10,2) ,&#xD;&#xA;Max_Steps int ,&#xD;&#xA;Min_Steps int ,&#xD;&#xA;Avg_Weekly_Steps decimal(10,2) ,&#xD;&#xA;Weekly_Target_Steps int ,&#xD;&#xA;Weekly_Target_Achieved int ,&#xD;&#xA;Target_Achieved_Count int &#xD;&#xA;)&#xD;&#xA;COMPOUND SORTKEY (Customer_id, Week_end_date)&quot;"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
     <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
     <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
