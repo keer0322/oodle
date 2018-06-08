@@ -1,0 +1,29 @@
+<settings>
+  <activeProfiles>
+    <activeProfile>nexus</activeProfile>
+  </activeProfiles>
+  <profiles>
+    <profile>
+      <id>nexus</id>
+      <repositories>
+        <repository>
+          <id>central</id>
+          <url>http://34.237.156.239:8081/nexus/content/repositories/central/</url>
+          <releases>
+            <enabled>false</enabled>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
+  <servers>
+    <server>
+      <id>nexus</id>
+      <username>deployment_id</username>
+      <password>deployment_id</password>
+    </server>
+  </servers>
+</settings>
