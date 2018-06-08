@@ -35,4 +35,11 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+    		<repository>
+        		<id>nexus</id>
+        		<name>nexus</name>
+        		<url>http://34.237.156.239:8081/nexus/content/repositories/central/</url>
+    		</repository>
+	</distributionManagement>
 </project>
