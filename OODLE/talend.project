@@ -486,6 +486,37 @@
       <relatedItems xmi:id="_2tWNRmsPEeiET6RCmWoooA" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_2tWNR2sPEeiET6RCmWoooA" id="Importtweets_deployTstandardizerow_1" version="Latest" type="routine"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_7KQn8GsQEeiET6RCmWoooA">
+      <baseItem xmi:id="_7KQn8WsQEeiET6RCmWoooA" id="_a4XTsJ2VEeepddv4c48Ucw" version="0.3" type="job"/>
+      <relatedItems xmi:id="_7KQn8msQEeiET6RCmWoooA" id="_WFTYIKksEeeYnLONC-b33A" version="Latest" type="context"/>
+      <relatedItems xmi:id="_7KQn82sQEeiET6RCmWoooA" id="_xF2QYJwSEeevSfDK6QoZaQ" version="Latest" type="context"/>
+      <relatedItems xmi:id="_7KQn9GsQEeiET6RCmWoooA" id="_Ihes4J2eEeepddv4c48Ucw" version="Latest" type="context"/>
+      <relatedItems xmi:id="_7KQn9WsQEeiET6RCmWoooA" id="_XElGYJEbEee8WO8wvmXhvw" version="Latest" type="context"/>
+      <relatedItems xmi:id="_7KQn9msQEeiET6RCmWoooA" id="_eJ_tcJ2eEeepddv4c48Ucw" version="Latest" type="context"/>
+      <relatedItems xmi:id="_7KQn92sQEeiET6RCmWoooA" id="_1QYc4KikEeeSJaJrKwwV2A" version="Latest" type="job"/>
+      <relatedItems xmi:id="_7KQn-GsQEeiET6RCmWoooA" id="_Gh7esK6vEeer8dArrZmTSw" version="Latest" type="job"/>
+      <relatedItems xmi:id="_7KQn-WsQEeiET6RCmWoooA" id="_c3Q2gKR-EeehHvrmnY-Irw" version="Latest" type="job"/>
+      <relatedItems xmi:id="_7KQn-msQEeiET6RCmWoooA" id="_d_dAcJ2VEeepddv4c48Ucw" version="Latest" type="job"/>
+      <relatedItems xmi:id="_7KQn-2sQEeiET6RCmWoooA" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7KQn_GsQEeiET6RCmWoooA" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7KQn_WsQEeiET6RCmWoooA" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7KQn_msQEeiET6RCmWoooA" id="ImporttweetsTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7KQn_2sQEeiET6RCmWoooA" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7KQoAGsQEeiET6RCmWoooA" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7KQoAWsQEeiET6RCmWoooA" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7KQoAmsQEeiET6RCmWoooA" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7KQoA2sQEeiET6RCmWoooA" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7KQoBGsQEeiET6RCmWoooA" id="Importtweets_deployTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7KQoBWsQEeiET6RCmWoooA" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7KQoBmsQEeiET6RCmWoooA" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7KQoB2sQEeiET6RCmWoooA" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7KQoCGsQEeiET6RCmWoooA" id="Tweets_Generator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7KQoCWsQEeiET6RCmWoooA" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7KQoCmsQEeiET6RCmWoooA" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7KQoC2sQEeiET6RCmWoooA" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7KQoDGsQEeiET6RCmWoooA" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7KQoDWsQEeiET6RCmWoooA" id="TalendStringUtil" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_GwFF0F8vEeiw-5gMKp4c_Q" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_GwFF0V8vEeiw-5gMKp4c_Q" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_GwFF0l8vEeiw-5gMKp4c_Q" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
