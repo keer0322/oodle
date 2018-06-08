@@ -106,6 +106,7 @@
     <routinesParameter id="_G33I0F8vEeiw-5gMKp4c_Q" name="TalendDate"/>
     <routinesParameter id="_G4GZYF8vEeiw-5gMKp4c_Q" name="TalendStringUtil"/>
     <routinesParameter id="_G3_rsF8vEeiw-5gMKp4c_Q" name="TalendString"/>
+    <routinesParameter id="_HRDjgGABEeibfI8i_-3lEw" name="MDM"/>
   </parameters>
   <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_1" show="false"/>
@@ -113,7 +114,7 @@
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
     <elementParameter field="TABLE" name="VALUES">
       <elementValue elementRef="SCHEMA_COLUMN" value="newColumn"/>
-      <elementValue elementRef="VALUE" value="&quot;Tested Successfully&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;Oodle Job Executed Successfully.&quot;"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
     <elementParameter field="TABLE" name="INTABLE" show="false"/>

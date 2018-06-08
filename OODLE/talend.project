@@ -350,6 +350,7 @@
       <relatedItems xmi:id="_zga0-WS-EeihMYJ8-6i36Q" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="_zga0-mS-EeihMYJ8-6i36Q" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_zga0-2S-EeihMYJ8-6i36Q" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_MbuCUGsJEeiET6RCmWoooA" id="MDM" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_8duHIGS-EeihMYJ8-6i36Q">
       <baseItem xmi:id="_8duHIWS-EeihMYJ8-6i36Q" id="_a4XTsJ2VEeepddv4c48Ucw" version="0.2" type="job"/>
