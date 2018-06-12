@@ -34,7 +34,7 @@ node {
       ls -ltr
       pwd
       set +e
-      mvn deploy -fn -e
+      mvn deploy -fn -e -s settings.xml
       set +e
     """
     }
