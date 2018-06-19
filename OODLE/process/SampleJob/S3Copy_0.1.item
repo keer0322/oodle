@@ -205,7 +205,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
   </connection>
   <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tS3BucketExist_1" offsetLabelX="0" offsetLabelY="0" source="tS3BucketExist_1" target="tS3BucketCreate_1">
-    <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tS3BucketExist_1_BUCKET_EXIST&quot;))"/>
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="!((Boolean)globalMap.get(&quot;tS3BucketExist_1_BUCKET_EXIST&quot;))"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="If1" show="false"/>
   </connection>
   <subjob>
