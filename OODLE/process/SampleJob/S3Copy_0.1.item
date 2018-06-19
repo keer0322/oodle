@@ -134,7 +134,7 @@
     <elementParameter field="TEXT" name="STS_ENDPOINT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tS3Copy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="288">
+  <node componentName="tS3Copy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3Copy_1" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
@@ -158,8 +158,8 @@
     <elementParameter field="TEXT" name="STS_ENDPOINT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tS3BucketExist" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="128">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3BucketExist_1" show="false"/>
+  <node componentName="tS3BucketCreate" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3BucketCreate_1" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;&quot;" show="false"/>
@@ -171,18 +171,18 @@
     <elementParameter field="TEXT" name="SESSION_DURATION" value="15" show="false"/>
     <elementParameter field="OPENED_LIST" name="REGION" value="DEFAULT" show="false"/>
     <elementParameter field="TEXT" name="BUCKET" value="&quot;oodle-config&quot;"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CHECK" name="CONFIG_CLIENT" value="false" show="false"/>
     <elementParameter field="TABLE" name="CLIENT_CONFIGURATION" show="false"/>
     <elementParameter field="CHECK" name="SET_STS_ENDPOINT" value="false" show="false"/>
     <elementParameter field="TEXT" name="STS_ENDPOINT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tS3Connection_1" offsetLabelX="0" offsetLabelY="0" source="tS3Connection_1" target="tS3BucketExist_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tS3Connection_1" offsetLabelX="0" offsetLabelY="0" source="tS3Connection_1" target="tS3BucketCreate_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tS3BucketExist_1" offsetLabelX="0" offsetLabelY="0" source="tS3BucketExist_1" target="tS3Copy_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tS3BucketCreate_1" offsetLabelX="0" offsetLabelY="0" source="tS3BucketCreate_1" target="tS3Copy_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3Connection_1" show="false"/>
@@ -195,7 +195,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3BucketExist_1" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3BucketCreate_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
