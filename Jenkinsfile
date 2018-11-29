@@ -1,4 +1,3 @@
-env.dockerimagename="buildon/buildon:v2"
 def jupiter_host='34.200.55.25'
 def talend_cmd_host='34.237.156.239'
 def talend_cmd_user='admin@company.com'
@@ -14,7 +13,7 @@ node {
     stage ('Code compile') {
         sh """pwd
           cd "${WORKSPACE}/OODLE"
-          mvn org.talend:ci.builder:6.3.1:generate -f pom.xml -Dcommandline.workspace="${WORKSPACE}/OODLE/" -Dcommandline.host=${talend_cmd_host} -Dcommandline.port=8002 -Dcommandline.user=${talend_cmd_user}
+          mvn org.talend:ci.builder:6.4.1:generate -f pom.xml -Dcommandline.workspace="${WORKSPACE}/OODLE/" -Dcommandline.host=${talend_cmd_host} -Dcommandline.port=8002 -Dcommandline.user=${talend_cmd_user}
           ls -ltr
           """
         sh 'sleep 10s'
