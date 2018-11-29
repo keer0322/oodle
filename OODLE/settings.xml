@@ -22,8 +22,8 @@
   <servers>
     <server>
       <id>nexus</id>
-      <username>deployment_id</username>
-      <password>deployment_id</password>
+      <username>ingestion-framework</username>
+      <password>T@lend</password>
     </server>
   </servers>
 </settings>
