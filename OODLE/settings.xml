@@ -22,7 +22,7 @@
   <servers>
     <server>
       <id>nexus</id>
-      <username>ingestion-framework</username>
+      <username>ingestion_framework</username>
       <password>T@lend</password>
     </server>
   </servers>
