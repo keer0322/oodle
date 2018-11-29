@@ -36,7 +36,7 @@
 	</build>
 <distributionManagement>
   <repository>
-    <id>releases_ci</id>
+    <id>nexus</id>
     <url>http://34.237.156.239:8081/nexus/content/repositories/releases_ci</url>
   </repository>
 </distributionManagement>
