@@ -44,6 +44,7 @@ node {
          //#if [ "$result" != "200" ]; then
          //#    exit 1
          //#fi
+        //
         sh"""
             set +e
             set +e
