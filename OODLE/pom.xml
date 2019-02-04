@@ -2,10 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
-	<groupId>YOUR_GROUP</groupId>
-	<artifactId>OODLE</artifactId>
-	<version>SNAPSHOT</version>
+	<groupId>oodle.demo</groupId>
+	<artifactId>oodle</artifactId>
+	<version>1.0.3</version>
 	<name>OODLE</name>
 	<packaging>pom</packaging>
 	<description>OODLE ODT Project</description>
@@ -35,4 +34,10 @@
 			</plugin>
 		</plugins>
 	</build>
+<distributionManagement>
+  <repository>
+    <id>nexus</id>
+    <url>http://34.237.156.239:8081/nexus/content/repositories/releases_ci</url>
+  </repository>
+</distributionManagement>
 </project>

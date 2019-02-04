@@ -12,10 +12,33 @@
 			<includes>
 				<include>.project</include>
 				<include>.settings/**</include>
-				<include>Structures/**</include>
-				<include>Maps/**</include>
 				<include>Databases/**</include>
+				<include>Maps/**</include>
 				<include>Namespace Containers/**</include>
+				<include>Reports/**</include>
+				<include>Structures/**</include>
+				<include>Sample Data/**</include>
+				<include>businessProcess/**</include>
+				<include>businessProcessSVG/**</include>
+				<include>code/**</include>
+				<include>components/**</include>
+				<include>context/**</include>
+				<include>documentations/**</include>
+				<include>images/**</include>
+				<include>joblets/**</include>
+				<include>joblets_spark_streaming/**</include>
+				<include>joblets_spark/**</include>
+				<include>metadata/**</include>
+				<include>process/**</include>
+				<include>process_mr/**</include>
+				<include>process_storm/**</include>
+				<include>route_resources/**</include>
+				<include>routelets/**</include>
+				<include>services/**</include>
+				<include>routes/**</include>
+				<include>sqlPatterns/**</include>
+				<include>tests/**</include>
+				<include>projectSources/**</include>
 			</includes>
 		</fileSet>
 	</fileSets>
