@@ -1,1 +1,1 @@
-# oodle demo repository
+# oodle demo
