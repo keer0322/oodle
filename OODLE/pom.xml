@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>oodle.demo</groupId>
-	<artifactId>OODLE</artifactId>
+	<artifactId>oodle</artifactId>
 	<version>1.0.3</version>
 	<name>OODLE</name>
 	<packaging>pom</packaging>
@@ -37,7 +37,7 @@
 <distributionManagement>
   <repository>
     <id>nexus</id>
-    <url>http://34.237.156.239:8081/nexus/content/repositories/releases/</url>
+    <url>http://34.237.156.239:8081/nexus/content/repositories/releases_ci</url>
   </repository>
 </distributionManagement>
 </project>
