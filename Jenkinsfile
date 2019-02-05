@@ -13,6 +13,7 @@ node {
     stage ('Code compile') {
         sh """pwd
           cd "${WORKSPACE}/OODLE"
+          whoami
           mvn org.talend:ci.builder:6.4.1:generate -s settings.xml -f pom.xml -Dcommandline.workspace="${WORKSPACE}/OODLE/" -Dcommandline.host=${talend_cmd_host} -Dcommandline.port=8002 -Dcommandline.user=${talend_cmd_user}
           ls -ltr
           """
