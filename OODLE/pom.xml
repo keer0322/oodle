@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>YOUR_GROUP</groupId>
+	<groupId>CTS</groupId>
 	<artifactId>OODLE</artifactId>
 	<version>SNAPSHOT</version>
 	<name>OODLE</name>
@@ -39,7 +39,7 @@
     		<repository>
         		<id>nexus</id>
         		<name>nexus</name>
-        		<url>http://34.237.156.239:8081/nexus/content/repositories/central/</url>
+        		<url>http://34.230.167.197:8081/nexus/content/repositories/central/</url>
     		</repository>
 	</distributionManagement>
 </project>
