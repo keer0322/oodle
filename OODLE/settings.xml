@@ -8,7 +8,7 @@
       <repositories>
         <repository>
           <id>central</id>
-          <url>http://34.237.156.239:8081/nexus/content/repositories/central/</url>
+          <url>http://34.230.167.197:8081/nexus/content/repositories/central/</url>
           <releases>
             <enabled>false</enabled>
           </releases>
@@ -22,8 +22,8 @@
   <servers>
     <server>
       <id>nexus</id>
-      <username>deployment_id</username>
-      <password>deployment_id</password>
+      <username>ingestion_framework</username>
+      <password>ingestion</password>
     </server>
   </servers>
 </settings>
