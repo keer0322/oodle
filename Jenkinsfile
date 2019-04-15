@@ -24,7 +24,7 @@ node {
  stage ('Code Build') {
     sh """pwd
           ls -ltr
-          cd "${WORKSPACE}/"
+          cd "${WORKSPACE}/OODLE"
           mvn package -f pom.xml -Dcommandline.workspace="${code_path}/" -Dcommandline.host=${talend_cmd_host} -Dcommandline.port=8002 -Dcommandline.user=${talend_cmd_user} -DprojectsTargetDirectory="${WORKSPACE}/target"
           """
     sh 'sleep 10s'
