@@ -2,8 +2,9 @@ env.dockerimagename="buildon/buildon:v2"
 def jupiter_host='34.230.167.197'
 def talend_cmd_host='34.230.167.197'
 def talend_cmd_user='admin@company.com'
-def code_path="${WORKSPACE}/OODLE"
+
 node {
+   def code_path="${WORKSPACE}/OODLE"
    stage ('Code Checkout') {
     checkout scm
      echo "Listing the files in the current dir"
@@ -15,7 +16,7 @@ node {
    stage ('Code compile') {
     sh """pwd
           cd "${WORKSPACE}/OODLE"
-          mvn org.talend:ci.builder:6.3.1:generate -f pom.xml -Dcommandline.workspace="${code_path}/" -Dcommandline.host=${talend_cmd_host} -Dcommandline.port=8002 -Dcommandline.user=${talend_cmd_user}
+          mvn org.talend:ci.builder:6.4.1:generate -f pom.xml -Dcommandline.workspace="${code_path}/" -Dcommandline.host=${talend_cmd_host} -Dcommandline.port=8002 -Dcommandline.user=${talend_cmd_user}
           ls -ltr
           """
     sh 'sleep 10s'
