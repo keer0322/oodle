@@ -8,7 +8,7 @@
       <repositories>
         <repository>
           <id>central</id>
-          <url>http://34.230.167.197:8081/nexus/content/repositories/central/</url>
+          <url>http://34.230.167.197:8081/nexus/content/repositories/releases/</url>
           <releases>
             <enabled>false</enabled>
           </releases>
