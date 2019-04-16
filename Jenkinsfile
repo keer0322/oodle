@@ -36,7 +36,7 @@ node {
       ls -ltr
       pwd
       set +e
-      mvn deploy -fn -e -s ${WORKSPACE}/OODLE/settings.xml
+      mvn deploy -f ${WORKSPACE}/OODLE/pom.xml -e -s ${WORKSPACE}/OODLE/settings.xml
       set +e
     """
    }
