@@ -39,7 +39,7 @@
     		<repository>
         		<id>nexus</id>
         		<name>nexus</name>
-        		<url>http://34.230.167.197:8081/nexus/content/repositories/central/</url>
+        		<url>http://34.230.167.197:8081/nexus/content/repositories/releases/</url>
     		</repository>
 	</distributionManagement>
 </project>
